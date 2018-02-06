@@ -27,8 +27,8 @@ class App extends Component {
           <img src={logo} className="App-logo" alt="logo" />
           <h1 className="App-title">Welcome to Nadias React App</h1>s
         </header>
-        <h3>Hi! I'm computer! Whats your name?</h3>
-        <input className="textbox" type="text" onChange={this.nameEntry}></input>
+          <h3>Hi! I'm computer! Whats your name?</h3>
+          <input className="textbox" type="text" onChange={this.nameEntry}></input>
 
         <button className="button" onClick={this.nameClick}>Enter</button>
 
